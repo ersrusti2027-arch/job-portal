@@ -1,0 +1,35 @@
+{
+  "name": "job-portal-backend",
+  "version": "1.0.0",
+  "description": "Job Portal Backend API - Node.js with MongoDB",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "job",
+    "portal",
+    "api",
+    "nodejs",
+    "mongodb",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.2",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^7.8.9",
+    "morgan": "^1.10.1",
+    "nodemailer": "^8.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
